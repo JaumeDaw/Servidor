@@ -1,0 +1,23 @@
+extends layout
+
+block content   
+  h1= titulo
+  table(border="1")
+    tr 
+      td Codigo 
+      td Precio 
+      td Descripcion
+    
+    for articulo in articulos
+      tr 
+        td= articulo.codigo 
+        td= articulo.precio 
+        td= articulo.descripcion
+    
+  table(border="1")
+    tr 
+      td Lunes 
+      td Martes
+    tr 
+      td= descuentos.lunes  
+      td= descuentos.martes

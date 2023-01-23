@@ -1,0 +1,14 @@
+{
+  "name": "proves",
+  "version": "1.0.0",
+  "description": "Proves",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaume Bañuls Orovay",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
